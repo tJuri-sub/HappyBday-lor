@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-dvh bg-gradient-to-r from-[#FFC0CB] to-[#CBFFC0] flex justify-center items-center flex-col">
+    
+    <h1 class=" text-5xl text-center text-pink-400  font-bold uppercase animate-bounce mb-4" >Happy Birthday!</h1>
+
+    
+    <h1 onclick="trigger()" class="bg-blue-300 text-black text-md font-medium uppercase rounded-md py-2 px-5 select-none mb-4" >click this</h1>
+     
+    <h1 id="message" class="text-center "></h1>
+
+
+    <script>
+
+        function trigger(){
+            
+            document.getElementById("message").innerHTML = "nag hanap ka ba ng message? Wala ito na yon! Basta galingan mo lang sa studies mo. Happy Birthday ulet!"
+        }
+    </script>
+
+</body>
+</html>
+
+<!-- 
+
+    #FFC0CB
+    #CBFFC0
+    #C0CBFF 
+
+-->
